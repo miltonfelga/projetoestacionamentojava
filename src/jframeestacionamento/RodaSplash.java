@@ -21,7 +21,7 @@ public class RodaSplash {
 
             for (int i = 0; i <= 100;
                     i++) {
-                Thread.sleep(20);
+                Thread.sleep(10);
                 splash.lblporcentagem.setText(Integer.toString(i) + "%");
                 splash.brProgressBar.setValue(i);
                 if (i == 100) {
